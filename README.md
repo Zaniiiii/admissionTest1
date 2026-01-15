@@ -1,4 +1,4 @@
-# Admission Test 1 - Safe RAG System (Ollama Edition)
+# Admission Test 2
 
 This project implements a Retrieval Augmented Generation (RAG) system specialized for **Cybersecurity & CVE Analysis**. It answers technical queries about Common Vulnerabilities and Exposures (CVEs) while enforcing strict privacy guardrails to preventing Personal Identifiable Information (PII) leakage.
 
@@ -49,16 +49,6 @@ This project implements a Retrieval Augmented Generation (RAG) system specialize
 
 ## ⚡ Usage
 
-### Running the RAG System
-To interact with the system or run specific tests:
-
-```bash
-# Run the main pipeline (example script)
-python src/main.py
-```
-
-*(Note: Ensure Ollama is running in the background)*
-
 ### Benchmarking
 To measure performance and safety compliance:
 
@@ -80,5 +70,4 @@ The `SafetyGuard` enforces the following rules at the prompt level:
 
 ## 📊 Performance Notes
 
-*   **Inference Speed**: On typical consumer hardware (e.g., RTX 3060), `qwen2.5:14b` may run at ~4-5 tokens/sec.
 *   **Memory**: Requires ~8-10GB of VRAM/RAM.
